@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #555b63;
+  background: #f4f1ec;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.eyebrow,
+.btn-brown,
+.btn-white,
+button,
+a.btn-brown,
+a.btn-white,
+nav a,
+header a {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.333%);
+  }
+}
+
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-33.333%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@layer components {
+  .container-site {
+    width: min(1280px, 100%);
+    margin-inline: auto;
+  }
+
+  section[id="home"] {
+    width: min(1920px, 100%);
+    margin: 0 auto;
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(40, 32, 20, 0.08);
+  }
+
+  .eyebrow {
+    @apply mb-2 text-xs font-bold uppercase tracking-[1.5px] text-woven-brown;
+  }
+
+  .btn-brown {
+    @apply inline-flex min-h-11 items-center justify-center gap-4 bg-woven-brown px-5 py-3 text-sm font-semibold text-white transition hover:bg-woven-dark;
+  }
+
+  .btn-white {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 border border-[#d9cab9] bg-white px-5 py-3 text-sm font-semibold text-woven-navy transition hover:bg-woven-dark hover:text-white;
+  }
+
+  a.bg-white:hover {
+    background-color: #f4efe9;
+  }
+}
