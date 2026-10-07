@@ -52,17 +52,72 @@ export default function JournalDetailPage({ slug }) {
           />
 
           <div className="mt-8 space-y-6 text-base leading-8 text-gray-700">
-            <p>{article.excerpt}</p>
+            {article.content ? (
+              article.content.map((block, index) => {
+                if (block.type === "heading") {
+                  const HeadingTag = `h${Math.min(block.level || 2, 6)}`;
+                  const headingClasses =
+                    block.level && block.level >= 3
+                      ? "mt-8 text-xl font-semibold text-woven-navy md:text-2xl"
+                      : "mt-8 text-2xl font-semibold text-woven-navy md:text-3xl";
+
+                  return (
+                    <HeadingTag
+                      key={`${article.slug}-heading-${index}`}
+                      className={headingClasses}
+                    >
+                      {block.text}
+                    </HeadingTag>
+                  );
+                }
+
+                if (block.type === "image") {
+                  return (
+                    <img
+                      key={`${article.slug}-image-${index}`}
+                      src={block.src}
+                      alt={block.alt}
+                      className="mt-4 w-full rounded-none object-cover shadow-sm"
+                    />
+                  );
+                }
+
+                if (block.type === "embed") {
+                  return (
+                    <div
+                      key={`${article.slug}-embed-${index}`}
+                      className="mt-4 overflow-hidden rounded-none bg-black"
+                    >
+                      <iframe
+                        className="aspect-video w-full"
+                        src={block.src}
+                        title={block.title || "Embedded video"}
+                        loading="lazy"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                      />
+                    </div>
+                  );
+                }
+
+                return (
+                  <p key={`${article.slug}-paragraph-${index}`}>{block.text}</p>
+                );
+              })
+            ) : (
+              <p>{article.excerpt}</p>
+            )}
           </div>
 
-          <a
+          {/* <a
             href={article.url}
             target="_blank"
             rel="noreferrer"
             className="btn-brown mt-8"
           >
             Read the full article <span aria-hidden="true">↗</span>
-          </a>
+          </a> */}
         </article>
       </div>
     </PageShell>
