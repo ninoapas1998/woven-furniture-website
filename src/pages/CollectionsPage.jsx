@@ -474,7 +474,7 @@ export default function CollectionsPage({ route = "" }) {
                 <p className="mt-3 max-w-md text-sm leading-relaxed text-gray-700">
                   Our design team can guide you through materials, styles, and sizing to match your project beautifully.
                 </p>
-                <button className="mt-6 inline-flex w-fit items-center gap-2 rounded-full bg-[#5f4334] px-5 py-3 text-sm font-semibold text-white transition hover:bg-woven-dark">
+                <button className="mt-6 inline-flex w-fit items-center gap-2 rounded-none bg-[#5f4334] px-5 py-3 text-sm font-semibold text-white transition hover:bg-woven-dark">
                   Talk to our team <span aria-hidden="true">→</span>
                 </button>
               </div>
