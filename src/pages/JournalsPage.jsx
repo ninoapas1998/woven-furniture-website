@@ -9,7 +9,7 @@ export const articles = [
     excerpt:
       "When it comes to crafting luxurious outdoor furniture in the Philippines, Woven Furniture Designs stands as the top outdoor furniture manufacturer in Cebu. With a commitment to superior craftsmanship, innovative designs, and sustainable materials, we bring world-class woven furniture to homes, resorts, and commercial spaces across the Philippines.",
     image:
-      "https://www.wovenfurnituredesigns.com/wp-content/uploads/2025/02/85236448_3117337981623413_1573068000209141760_n.jpg",
+      "/img/journals/85236448_3117337981623413_1573068000209141760_n.jpg",
     imageAlt: "Woven Furniture Designs outdoor furniture",
     url: "https://www.wovenfurnituredesigns.com/woven-furniture-designs-cebus-premier-outdoor-furniture-manufacturer/",
     content: [
@@ -35,7 +35,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/08/Feb-final-WOVEN-furniture-2025-catalogue-1024x727-png.webp",
+        src: "/img/journals/Feb-final-WOVEN-furniture-2025-catalogue-1024x727-png.webp",
         alt: "Feb final WOVEN furniture 2025 catalogue | Woven Furniture Designs",
       },
       {
@@ -88,7 +88,7 @@ export const articles = [
     excerpt:
       "An outdoor retreat serves as a personal sanctuary, a space where the bustle of daily life fades into the background, replaced by the tranquility of nature. It’s a place designed for relaxation, reflection, and rejuvenation, all within the comfort of your own home. Central to creating this serene escape is the thoughtful placement of furniture, particularly sun loungers.",
     image:
-      "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/04/789_Lifestyle-1-scaled.jpg",
+      "/img/journals/789_Lifestyle-1-scaled.jpg",
     imageAlt: "Sun lounger in an outdoor retreat",
     url: "https://www.wovenfurnituredesigns.com/designing-your-outdoor-retreat-sun-lounger-placement-tips-for-serenity/",
     content: [
@@ -104,7 +104,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://lh7-us.googleusercontent.com/H5TJbpY9uEGsTcn7SpfsKkUyeSr6JlAEK13x1aQFx6YpDc4Iq2FKAhIoyANd5TD3lRPyH1pFW7x4fD7qqwzMMt1MWJrSfe_D_mfGg5-0lWP9xxMqauPr0TwnaHMiZ_leUrMvJnQhFlKHXBLWrwL_2dM",
+        src: "/img/journals/sun-lounger-space.jpg",
         alt: "sun lounger",
       },
       {
@@ -164,7 +164,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://lh7-us.googleusercontent.com/XySpEGSTZVoJWKC03BGPNPOj7Pxaqtg093FbG3I2Hw0BVaQrK02zOKQB0q7tnUu_1IqjMRvm_JZptTOlQpWKEz1xOWbRLzQQVMKSZUNk5J9V-nNq3UNACLteh-lpCGydomEJK_IfCMNgW6-OMhQ8S8Y",
+        src: "/img/journals/sun-lounger-selection.jpg",
         alt: "XySpEGSTZVoJWKC03BGPNPOj7Pxaqtg093FbG3I2Hw0BVaQrK02zOKQB0q7tnUu 1IqjMRvm JZptTOlQpWKEz1xOWbRLzQQVMKSZUNk5J9V nNq3UNACLteh lpCGydomEJK IfCMNgW6 OMhQ8S8Y | Woven Furniture Designs",
       },
       {
@@ -224,7 +224,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://lh7-us.googleusercontent.com/rzpLGPe1PvB9iCJ3zlINLkX5OaL2nvQTStG77Trmb4Y3iDfWruIrrz-uGb6pBJwvqnGGjneDEReRanWA_jlrp-7MZ8vBVyI1UgcoLE9lwPFQBsL6b4jOjHqPRYGrPC3DFix89XbzUbj9OXkzWn1v-GM",
+        src: "/img/journals/sun-lounger-placement.jpg",
         alt: "rzpLGPe1PvB9iCJ3zlINLkX5OaL2nvQTStG77Trmb4Y3iDfWruIrrz uGb6pBJwvqnGGjneDEReRanWA jlrp 7MZ8vBVyI1UgcoLE9lwPFQBsL6b4jOjHqPRYGrPC3DFix89XbzUbj9OXkzWn1v GM | Woven Furniture Designs",
       },
       {
@@ -399,7 +399,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://lh7-us.googleusercontent.com/LX_gayHvCAwFo-ntpshGN4TpIOF6v-dPnVzIiKxU8Ka1_DvSsHUYSDV5xQJw4FRncoqxzKlEqKrHS3bijXL-K0TOi6Q_Uqg8gimsXlky-xytryazER6QojoBXIkjoDAclepeYGMch5q3srAqesuujfI",
+        src: "/img/journals/sun-lounger-accessories.jpg",
         alt: "LX gayHvCAwFo ntpshGN4TpIOF6v dPnVzIiKxU8Ka1 DvSsHUYSDV5xQJw4FRncoqxzKlEqKrHS3bijXL K0TOi6Q Uqg8gimsXlky | Woven Furniture Designs",
       },
       {
@@ -637,7 +637,7 @@ export const articles = [
     excerpt:
       "In the heart of bustling city life, small outdoor spaces are precious escapes, offering a slice of nature and tranquility amidst urban sprawl. Far beyond their size, these areas hold endless potential for personalization, transforming into cozy havens for relaxation and enjoyment. This guide explores how, with innovative design and a splash of creativity, even the most compact balconies and patios can become inviting retreats that reflect your unique style and enhance daily life.",
     image:
-      "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/04/nest-22401-22420-h-1-1.jpg",
+      "/img/journals/nest-22401-22420-h-1-1.jpg",
     imageAlt: "Outdoor furniture for a small space",
     url: "https://www.wovenfurnituredesigns.com/innovative-tips-for-transforming-small-outdoor-spaces-into-cozy-retreats/",
     content: [
@@ -693,7 +693,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/04/vintage-52000-52010-topaz-64220-h-1-1-1-1024x676.jpg",
+        src: "/img/journals/vintage-52000-52010-topaz-64220-h-1-1-1-1024x676.jpg",
         alt: "vintage 52000 52010 topaz 64220 h 1 1 1 | Woven Furniture Designs",
       },
       {
@@ -748,12 +748,12 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/04/ocean-pearl-713prl-l-3-1024x768.jpg",
+        src: "/img/journals/ocean-pearl-713prl-l-3-1024x768.jpg",
         alt: "ocean pearl 713prl l 3 | Woven Furniture Designs",
       },
       {
         type: "image",
-        src: "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/04/ocean-pearl-713prl-l-2-1024x768.jpg",
+        src: "/img/journals/ocean-pearl-713prl-l-2-1024x768.jpg",
         alt: "ocean pearl 713prl l 2 | Woven Furniture Designs",
       },
       {
@@ -838,7 +838,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/04/Dining-Chairs_01-1024x683.jpg",
+        src: "/img/journals/Dining-Chairs_01-1024x683.jpg",
         alt: "Dining Chairs 01 | Woven Furniture Designs",
       },
       {
@@ -873,7 +873,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/04/770PRL_Lifestyle-682x1024.jpg",
+        src: "/img/journals/770PRL_Lifestyle-682x1024.jpg",
         alt: "770PRL Lifestyle | Woven Furniture Designs",
       },
       {
@@ -943,7 +943,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://lh7-us.googleusercontent.com/1413QIcmbMwGNV-k8tPOf1wjFaN3WhBQmVSD7vmrgWcU0ysiVe3pdMhZ4nka487xZr3n5Mrl5ldDHtdkIHZgDwCc5UEyKaDkCoILkeMk1ilbcarg5y7qM0OhuRMbw4Dyd81thwXi0-3AkiH_dXw-FFk",
+        src: "/img/journals/small-space-case-study.jpg",
         alt: "1413QIcmbMwGNV k8tPOf1wjFaN3WhBQmVSD7vmrgWcU0ysiVe3pdMhZ4nka487xZr3n5Mrl5ldDHtdkIHZgDwCc5UEyKaDkCoILkeMk1ilbcarg5y7qM0OhuRMbw4Dyd81thwXi0 3AkiH dXw FFk | Woven Furniture Designs",
       },
       {
@@ -1038,7 +1038,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/04/HAVANNAH-1-1024x680.jpg",
+        src: "/img/journals/HAVANNAH-1-1024x680.jpg",
         alt: "HAVANNAH 1 | Woven Furniture Designs",
       },
       {
@@ -1083,7 +1083,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/04/monte-carlo-7737gr-7738gr-7739gr-l-2-1024x768.jpg",
+        src: "/img/journals/monte-carlo-7737gr-7738gr-7739gr-l-2-1024x768.jpg",
         alt: "monte carlo 7737gr 7738gr 7739gr l 2 | Woven Furniture Designs",
       },
       {
@@ -1123,7 +1123,7 @@ export const articles = [
     excerpt:
       "Selecting the right outdoor furniture is crucial for enhancing your living space, combining design with functionality to create the perfect outdoor setting. This guide aims to simplify the process, covering essential factors such as material durability, maintenance, style, and sustainability. Whether your outdoor area is a spacious garden or a cozy balcony, the right furniture choices can transform it into a beautiful and functional extension of your home.",
     image:
-      "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/04/coral-natural-70450-70460-70470-70480-opal-63720-h-2.jpg",
+      "/img/journals/coral-natural-70450-70460-70470-70480-opal-63720-h-2.jpg",
     imageAlt: "Outdoor furniture in a garden setting",
     url: "https://www.wovenfurnituredesigns.com/choosing-the-right-outdoor-furniture-a-comprehensive-guide-to-design-and-functionality/",
     content: [
@@ -1139,7 +1139,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/04/coral-gray-70401-70421-70431-opal-63710-h-1-1024x682.jpg",
+        src: "/img/journals/coral-gray-70401-70421-70431-opal-63710-h-1-1024x682.jpg",
         alt: "coral gray 70401 70421 70431 opal 63710 h 1 | Woven Furniture Designs",
       },
       {
@@ -1179,7 +1179,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/04/717PRL-718PRL-719PRL-7768-681x1024.jpg",
+        src: "/img/journals/717PRL-718PRL-719PRL-7768-681x1024.jpg",
         alt: "717PRL 718PRL 719PRL 7768 | Woven Furniture Designs",
       },
       {
@@ -1234,7 +1234,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/04/702PRL_Lifestyle-1024x680.jpg",
+        src: "/img/journals/702PRL_Lifestyle-1024x680.jpg",
         alt: "702PRL Lifestyle | Woven Furniture Designs",
       },
       {
@@ -1299,7 +1299,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/04/cordial-luxe-7557gr-7557cf-l-2-1024x768.jpg",
+        src: "/img/journals/cordial-luxe-7557gr-7557cf-l-2-1024x768.jpg",
         alt: "cordial luxe 7557gr 7557cf l 2 | Woven Furniture Designs",
       },
       {
@@ -1374,7 +1374,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/04/vintage-52000-52010-topaz-64220-h-1-1-1024x676.jpg",
+        src: "/img/journals/vintage-52000-52010-topaz-64220-h-1-1-1024x676.jpg",
         alt: "vintage 52000 52010 topaz 64220 h 1 1 | Woven Furniture Designs",
       },
       {
@@ -1429,7 +1429,7 @@ export const articles = [
       },
       {
         type: "image",
-        src: "https://www.wovenfurnituredesigns.com/wp-content/uploads/2024/04/7565GRMID-7565GRCOR-7567GR-7568GR-1024x684.jpg",
+        src: "/img/journals/7565GRMID-7565GRCOR-7567GR-7568GR-1024x684.jpg",
         alt: "7565GRMID 7565GRCOR 7567GR 7568GR | Woven Furniture Designs",
       },
       {
